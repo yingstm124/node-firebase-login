@@ -37,9 +37,6 @@ exports.Register = (req, res) => {
                 uid: user.uid
             }
 
-            console.log("UID : "+data.uid);
-            console.log("Username : "+data.username);
-
             // update user profile with firebase Authentication
             user.updateProfile({
                 displayName: username

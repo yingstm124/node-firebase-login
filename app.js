@@ -28,7 +28,6 @@ app.get('/', getHomePage);
 app.get('/login', getLoginPage);
 app.get('/logout', Logout);
 app.post('/register', Register);
-
 app.post('/login', Login);
 
 

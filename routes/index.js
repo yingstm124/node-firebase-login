@@ -5,7 +5,7 @@ module.exports = {
 
         if(req.session.isLogined){
             res.render('home.ejs', {
-                title: 'Happy birthday',
+                title: 'Home',
                 msg: 'Hello '+req.session.username,
                 isLogined: req.session.isLogined
             });
