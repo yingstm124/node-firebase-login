@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    justify-content: space-around;
+}
+.login-area , .register-area {
+    width: 50%;
+    margin: 0% 3% 0% 3%;
+}
+#login-form , #register-form{
+    padding-top: 2%;
+    width: 100%;
+}
+h2 {
+    font-size: 150%;
+}
+
+.msg-login , .msg-reg {
+    color: red;
+}
+
+input {
+    font-family: monospace;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 1% 2% 1% 2%;
+}
+
+#login-btn , #register-btn{
+    width: 30%;
+    margin-top: 5%;
+    float: right;
+}
+
+#login-btn:hover , #register-btn:hover {
+    color: white;
+    background-color: tomato;
+}
